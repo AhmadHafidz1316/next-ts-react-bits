@@ -7,10 +7,12 @@ import BlurText from "./components/BlurText/BlurText";
 import AnimatedContent from "./components/AnimatedContent/AnimatedContent";
 import Particles from "./components/Particles/Particles";
 import Iridescence from "./components/Iridescence/Iridescence";
+import SplashCursor from "./components/SplashCursor/SplashCursor";
 
 export default function Home() {
   return (
     <div className="h-screen overflow-hidden flex items-center justify-center p-10">
+      <SplashCursor />
       <div className="absolute top-0 right-0 left-0 bottom-0 w-full h-screen overflow-hidden">
         <Iridescence
           color={[1, 1, 1]}
